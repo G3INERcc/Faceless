@@ -36,14 +36,23 @@
         <section class="forms-user">
             <form action="save.php" method="post">
                 <label for="name">True Name</label>
-                <input type="" id="true-name" name="true-name" required>
+                <input type="text" id="true-name" name="true-name" required>
 
-                <button type="submit">Save</button>
+                <label for="aspect">Aspect</label>
+                <input type="text" id="aspect" name="aspect" required autocomplete="aspect">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpiar</button>
             </form>
         </section>
 
     </main>
-
     <footer>
 
     </footer>
